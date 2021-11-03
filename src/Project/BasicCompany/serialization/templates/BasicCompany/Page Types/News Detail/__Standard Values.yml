@@ -1,0 +1,41 @@
+﻿---
+ID: "71fe01e7-8f31-4d3a-b3d6-1339fc439dcb"
+Parent: "08b3dd0c-4ec2-43a4-aed7-45565fcedfab"
+Template: "08b3dd0c-4ec2-43a4-aed7-45565fcedfab"
+Path: /sitecore/templates/Project/BasicCompany/Page Types/News Detail/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{4ED48317-062F-4465-B9AF-1E636841525B}">
+        <r
+          id="{AF0D28F1-B659-4392-8FCF-E250DF527FA3}"
+          ph=""
+          uid="{0E575C07-F491-4C88-9D44-51C802FA9573}" />
+        <r
+          id="{41899C0B-C159-44EA-B8D4-BB47E256295E}"
+          ph=""
+          uid="{52E58E7E-6180-4353-9D54-33171EB604DD}" />
+        <r
+          id="{78BCD6B7-FB7B-4D9D-90D1-78A2C45FCF49}"
+          ph=""
+          uid="{C3F0F6DA-BB88-4A81-A25B-C7880B21B69A}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211103T084900Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

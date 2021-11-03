@@ -1,0 +1,32 @@
+﻿---
+ID: "08b3dd0c-4ec2-43a4-aed7-45565fcedfab"
+Parent: "69acb668-b447-4aff-8b94-e9844f095054"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/BasicCompany/Page Types/News Detail
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/text_ok.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {68C367D4-4543-44C3-8567-184A7F593B18}
+    {3FFF4B88-BB1A-4A21-B1A7-F023FE7C02DF}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{71FE01E7-8F31-4D3A-B3D6-1339FC439DCB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211103T084837Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

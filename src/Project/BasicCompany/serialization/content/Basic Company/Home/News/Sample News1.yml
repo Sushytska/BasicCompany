@@ -1,0 +1,32 @@
+﻿---
+ID: "edae621a-da3c-48b7-8b21-368dbacf3054"
+Parent: "b100f58f-9f1e-4102-91a2-42d18c140de4"
+Template: "f562af3b-1c23-4684-b7c4-18952bc08033"
+Path: /sitecore/content/Basic Company/Home/News/Sample News1
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{08B3DD0C-4EC2-43A4-AED7-45565FCEDFAB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211101T133620Z
+    - ID: "32cff90d-4fdf-4402-a364-21199e88753d"
+      Hint: Navigation Title
+      Value: Sample News1
+    - ID: "5629d19f-0b55-40ca-ad15-5219a6a5c0fe"
+      Hint: News Header Image
+      Value: |
+        <image mediaid="{40F80D91-AF0D-4D88-896D-E476CDE96362}" />
+    - ID: "b0dd1564-b311-47f2-bfdd-928806959b8a"
+      Hint: News Author
+      Value: Mr. ART
+    - ID: "cd883091-5ccc-4e05-87f6-375f57069de8"
+      Hint: News Title
+      Value: Sample News title

@@ -1,0 +1,18 @@
+﻿---
+ID: "2daf0076-85e3-4a0b-8333-70225a32f78a"
+Parent: "edae621a-da3c-48b7-8b21-368dbacf3054"
+Template: "08b3dd0c-4ec2-43a4-aed7-45565fcedfab"
+Path: /sitecore/content/Basic Company/Home/News/Sample News1/News1 Detail
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211103T100915Z
+    - ID: "c983f1fd-ca63-43a8-9add-51965448366a"
+      Hint: Details Image
+      Value: |
+        <image mediaid="{40F80D91-AF0D-4D88-896D-E476CDE96362}" />

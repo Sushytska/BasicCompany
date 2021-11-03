@@ -1,0 +1,18 @@
+﻿@using BasicCompany.Feature.News
+@using BasicCompany.Foundation.FieldRendering
+
+<div class="container">
+    <section class="hero is-small">
+        <div class="hero-body">
+            <h1 class="title">
+                @Html.Sitecore().Field(Templates.Details.Fields.DetailsTitle)
+            </h1>
+            <h2 class="subtitle is-one-quarter">
+                @Html.Sitecore().Field(Templates.Details.Fields.DetailsContent)
+            </h2>
+        </div>
+        <div class="column is-3">
+            @Html.Sitecore().Field(Templates.Details.Fields.DetailsImage, new { mw = 480, @as = 0 })
+        </div>
+    </section>
+</div>
