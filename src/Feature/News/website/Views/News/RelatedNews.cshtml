@@ -1,0 +1,14 @@
+﻿@model RenderingModel
+@using BasicCompany.Feature.News
+@using Sitecore.Data.Fields;
+
+@{ MultilistField relatedNews = Model.Item.Fields[Templates.News.Fields.NewsRelated]; }
+
+<div class="container">
+    <div class="product-list-columns columns is-multiline">
+        @foreach (var news in relatedNews.GetItems())
+        {
+            @Html.Partial("../News/_ListNews", news)
+        }
+    </div>
+</div>

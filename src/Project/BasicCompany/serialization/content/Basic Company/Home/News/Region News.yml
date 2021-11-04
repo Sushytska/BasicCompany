@@ -15,6 +15,13 @@ Languages:
     - ID: "32cff90d-4fdf-4402-a364-21199e88753d"
       Hint: Navigation Title
       Value: Region News
+    - ID: "531ea361-5c1d-406f-94a8-97786b36c568"
+      Hint: News Related
+      Type: Treelist
+      Value: |
+        {CA7F8A0E-C2DD-4345-AC4F-FC937A08010F}
+        {3F1A92D6-DDDE-44EB-943C-0D774F0FEDE5}
+        {3E8BB021-E1CB-46A7-B8E3-FC6653757658}
     - ID: "5629d19f-0b55-40ca-ad15-5219a6a5c0fe"
       Hint: News Header Image
       Value: |

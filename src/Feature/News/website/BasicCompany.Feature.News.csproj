@@ -66,6 +66,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\News\DetailsNews.cshtml" />
+    <Content Include="Views\News\RelatedNews.cshtml" />
     <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>

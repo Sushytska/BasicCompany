@@ -22,6 +22,10 @@ SharedFields:
           ph="main"
           uid="{F674A586-1226-4681-B2F2-E6951F12FC57}" />
         <r
+          id="{D938D883-14AE-4F72-AC3C-9ED45CBD9A69}"
+          ph="main"
+          uid="{3EF90DF8-DF0A-4658-80B9-523676534E39}" />
+        <r
           id="{78BCD6B7-FB7B-4D9D-90D1-78A2C45FCF49}"
           ph="footer"
           uid="{576B11BE-7C1E-4B7D-9BE8-138745D01987}" />
