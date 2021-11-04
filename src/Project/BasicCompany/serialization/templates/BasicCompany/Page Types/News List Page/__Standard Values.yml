@@ -2,7 +2,7 @@
 ID: "0744d638-0a5e-4bdc-866e-642e10d75966"
 Parent: "d3d6ee0b-74df-4aee-86e9-35beeaf5ec5d"
 Template: "d3d6ee0b-74df-4aee-86e9-35beeaf5ec5d"
-Path: /sitecore/templates/Project/BasicCompany/Page Types/News/__Standard Values
+Path: /sitecore/templates/Project/BasicCompany/Page Types/News List Page/__Standard Values
 DB: master
 SharedFields:
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"

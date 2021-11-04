@@ -16,17 +16,5 @@ namespace BasicCompany.Feature.News
                 public static readonly ID NewsAuthor = new ID("{B0DD1564-B311-47F2-BFDD-928806959B8A}");
             }
         }
-
-        public static class Details
-        {
-            public static readonly ID Id = new ID("{3FFF4B88-BB1A-4A21-B1A7-F023FE7C02DF}");
-
-            public static class Fields
-            {
-                public static readonly ID DetailsTitle = new ID("{91471379-F445-420A-892F-9B14ABCECB39}");
-                public static readonly ID DetailsContent = new ID("{7CDEC84C-DC6C-4FDA-A729-933092DC9CEB}");
-                public static readonly ID DetailsImage = new ID("{C983F1FD-CA63-43A8-9ADD-51965448366A}");
-            }
-        }
     }
 }

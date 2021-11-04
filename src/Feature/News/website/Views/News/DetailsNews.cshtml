@@ -5,14 +5,17 @@
     <section class="hero is-small">
         <div class="hero-body">
             <h1 class="title">
-                @Html.Sitecore().Field(Templates.Details.Fields.DetailsTitle)
+                @Html.Sitecore().Field(Templates.News.Fields.NewsTitle)
             </h1>
             <h2 class="subtitle is-one-quarter">
-                @Html.Sitecore().Field(Templates.Details.Fields.DetailsContent)
+                @Html.Sitecore().Field(Templates.News.Fields.NewsContent)
             </h2>
+            <h3 class="subtitle is-one-quarter">
+                @Html.Sitecore().Field(Templates.News.Fields.NewsAuthor)
+            </h3>
         </div>
-        <div class="column is-3">
-            @Html.Sitecore().Field(Templates.Details.Fields.DetailsImage, new { mw = 480, @as = 0 })
+        <div class="hero-body">
+            @Html.Sitecore().Field(Templates.News.Fields.NewsHeaderImage, new { mw = 580 })
         </div>
     </section>
 </div>

@@ -5,10 +5,13 @@ Template: "d3d6ee0b-74df-4aee-86e9-35beeaf5ec5d"
 Path: /sitecore/content/Basic Company/Home/News
 DB: master
 SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/text_ok.png
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Type: TreelistEx
-  Value: "{F562AF3B-1C23-4684-B7C4-18952BC08033}"
+  Value: "{08B3DD0C-4EC2-43A4-AED7-45565FCEDFAB}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 500

@@ -1,0 +1,30 @@
+﻿---
+ID: "3e8bb021-e1cb-46a7-b8e3-fc6653757658"
+Parent: "b100f58f-9f1e-4102-91a2-42d18c140de4"
+Template: "08b3dd0c-4ec2-43a4-aed7-45565fcedfab"
+Path: /sitecore/content/Basic Company/Home/News/BBC News
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211104T091621Z
+    - ID: "32cff90d-4fdf-4402-a364-21199e88753d"
+      Hint: Navigation Title
+      Value: BBC News
+    - ID: "5629d19f-0b55-40ca-ad15-5219a6a5c0fe"
+      Hint: News Header Image
+      Value: |
+        <image mediaid="{4A93BBF4-FF43-4DDB-B3A9-AA6FB86FD52C}" />
+    - ID: "8ea70858-0096-4184-989a-84f7ba837056"
+      Hint: News Content
+      Value: BBC News is the operational business unit of the British Broadcasting Corporation (BBC), responsible for collecting and broadcasting news and current events.
+    - ID: "b0dd1564-b311-47f2-bfdd-928806959b8a"
+      Hint: News Author
+      Value: "bbc-news"
+    - ID: "cd883091-5ccc-4e05-87f6-375f57069de8"
+      Hint: News Title
+      Value: BBC News
