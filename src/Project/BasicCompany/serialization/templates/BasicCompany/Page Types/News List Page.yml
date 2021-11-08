@@ -4,6 +4,14 @@ Parent: "69acb668-b447-4aff-8b94-e9844f095054"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Project/BasicCompany/Page Types/News List Page
 DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {C231FBB4-DCDB-4708-99BC-94760F222CC5}
+    {68C367D4-4543-44C3-8567-184A7F593B18}
 Languages:
 - Language: en
   Versions:
