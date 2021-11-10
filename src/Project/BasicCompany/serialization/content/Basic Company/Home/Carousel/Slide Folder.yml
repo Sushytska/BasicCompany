@@ -1,0 +1,14 @@
+﻿---
+ID: "9f63b6dc-fb00-4a87-b386-da46d8adfc03"
+Parent: "5c9e213b-9455-4fca-b826-4dcabc698d68"
+Template: "99c3833b-f17b-42ed-8e7a-2e5c4cc87ff2"
+Path: /sitecore/content/Basic Company/Home/Carousel/Slide Folder
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211108T085752Z

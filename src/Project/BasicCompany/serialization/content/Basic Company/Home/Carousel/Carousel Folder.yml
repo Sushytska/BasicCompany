@@ -1,0 +1,14 @@
+﻿---
+ID: "37f911f3-00bf-4841-9dbf-36db291938e6"
+Parent: "5c9e213b-9455-4fca-b826-4dcabc698d68"
+Template: "0d4655c3-84e4-4bd3-8b44-73caf2b1b0eb"
+Path: /sitecore/content/Basic Company/Home/Carousel/Carousel Folder
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211108T085708Z

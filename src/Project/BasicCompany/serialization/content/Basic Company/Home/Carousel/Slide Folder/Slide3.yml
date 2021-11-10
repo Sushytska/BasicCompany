@@ -1,0 +1,28 @@
+﻿---
+ID: "90dd2235-06b9-4775-9207-a5d0e1dc5251"
+Parent: "9f63b6dc-fb00-4a87-b386-da46d8adfc03"
+Template: "44fc3021-fc47-4d8b-b908-fe35a833fad0"
+Path: /sitecore/content/Basic Company/Home/Carousel/Slide Folder/Slide3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211108T085811Z
+    - ID: "2a3953fd-0f23-4c4e-8787-380b3bef87c0"
+      Hint: Image
+      Value: |
+        <image mediaid="{ADED0865-0D81-4DE7-AED1-269BA826AC42}" />
+    - ID: "4bbd1e16-1256-4eff-ad65-d720c1859fbc"
+      Hint: Sub Title
+      Value: Region News
+    - ID: "4dd84666-56e9-4938-a9ef-2fa00f388e2d"
+      Hint: Call To Action
+      Value: |
+        <link text="News" anchor="" linktype="internal" class="" title=""  querystring="" id="{3F1E9609-2CF8-4F3F-A254-B24A6446CEAA}" />
+    - ID: "8ec230e9-51bf-4169-ab15-ea9a874e7841"
+      Hint: Title
+      Value: News

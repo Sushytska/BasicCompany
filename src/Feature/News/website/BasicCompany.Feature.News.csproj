@@ -67,10 +67,14 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\News\DetailsNews.cshtml" />
     <Content Include="Views\News\RelatedNews.cshtml" />
+    <Content Include="Views\Carousel\Index.cshtml" />
     <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\CarouselController.cs" />
     <Compile Include="Controllers\NewsController.cs" />
+    <Compile Include="Models\Carousel.cs" />
+    <Compile Include="Models\Slide.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Templates.cs" />
   </ItemGroup>

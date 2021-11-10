@@ -1,0 +1,21 @@
+﻿---
+ID: "57977ddf-3460-4cae-9766-91a006fe4b61"
+Parent: "37f911f3-00bf-4841-9dbf-36db291938e6"
+Template: "bc6ac232-51e7-4b82-b145-ee96291bd749"
+Path: /sitecore/content/Basic Company/Home/Carousel/Carousel Folder/Carousel
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211108T085725Z
+    - ID: "7708115d-23a4-46e3-bb8a-85197be0c6c8"
+      Hint: Slides
+      Type: Treelist
+      Value: |
+        {1268052D-C1CC-49E6-B1E4-67E3D5C3BA73}
+        {D916B014-F0D4-4FA4-B2DB-7A4ABB715BC6}
+        {90DD2235-06B9-4775-9207-A5D0E1DC5251}
