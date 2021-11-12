@@ -1,5 +1,4 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -43,6 +42,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Sitecore.ContentSearch">
+      <Version>9.3.0</Version>
+    </PackageReference>
     <PackageReference Include="Sitecore.Kernel">
       <Version>9.3.0</Version>
     </PackageReference>
@@ -56,6 +58,10 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Feature\Feature.News.Serialization.config" />
+    <Content Include="App_Config\Include\Feature\Feature.News.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Site.css" />
@@ -73,6 +79,7 @@
   <ItemGroup>
     <Compile Include="Controllers\CarouselController.cs" />
     <Compile Include="Controllers\NewsController.cs" />
+    <Compile Include="ServicesConfigurator.cs" />
     <Compile Include="Models\Carousel.cs" />
     <Compile Include="Models\Slide.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
