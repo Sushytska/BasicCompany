@@ -1,0 +1,14 @@
+﻿---
+ID: "5aeae1a2-3408-46a3-a1e5-40dce325b89d"
+Parent: "f648908a-d154-4f93-aba1-d3b1f93cc787"
+Template: "f648908a-d154-4f93-aba1-d3b1f93cc787"
+Path: /sitecore/templates/Project/BasicCompany/Page Types/Blog List Page/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211108T153203Z

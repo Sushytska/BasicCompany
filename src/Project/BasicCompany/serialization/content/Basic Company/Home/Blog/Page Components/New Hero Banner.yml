@@ -1,0 +1,24 @@
+﻿---
+ID: "24f99cf7-9b18-4b94-b970-f2af09f09a92"
+Parent: "2df97d46-d6cd-478e-a5dd-308d1fedc97d"
+Template: "4a421518-7b4a-4d43-af9b-94e17e00ec9f"
+Path: /sitecore/content/Basic Company/Home/Blog/Page Components/New Hero Banner
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211109T161254Z
+    - ID: "5179186c-b95e-4e97-95ab-7958721a9aeb"
+      Hint: Title
+      Value: Blog
+    - ID: "89b0a8ed-0ee8-4512-b518-ab2c4c2a0b9e"
+      Hint: Subtitle
+      Value: Resent Posts
+    - ID: "b5f61442-ff0f-46a5-90a8-d6d387de24a0"
+      Hint: Image
+      Value: |
+        <image mediaid="{F6FE998B-F914-48A1-8621-78A24AAFA1B7}" />
