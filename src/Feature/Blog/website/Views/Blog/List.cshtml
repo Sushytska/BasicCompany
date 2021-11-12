@@ -1,0 +1,11 @@
+﻿@model IEnumerable<Sitecore.Data.Items.Item>
+
+
+<div class="container">
+    <div class="product-list-columns columns is-multiline">
+        @foreach (var post in Model)
+        {
+            @Html.Partial("../Blog/_ListPost", post)
+        }
+    </div>
+</div>

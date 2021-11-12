@@ -1,0 +1,23 @@
+﻿@using BasicCompany.Feature.Blog
+@using Sitecore.Mvc
+@using BasicCompany.Foundation.FieldRendering
+
+<div class="container">
+    <section class="hero is-small">
+        <div class="hero-body">
+            <h1 class="title">
+                @Html.Sitecore().Field(Templates.Post.Fields.Title)
+            </h1>
+            @Html.Sitecore().Field(Templates.Post.Fields.PreviewImage, new { mw = 840 })
+            <h2 class="subtitle is-one-quarter">
+                @Html.Sitecore().Field(Templates.Post.Fields.Content)
+            </h2>
+            <h3 class="subtitle is-one-quarter">
+                @Html.Sitecore().Field(Templates.Post.Fields.Author)
+            </h3>
+            <h3 class="subtitle is-one-quarter">
+                @Html.Sitecore().Field(Templates.Post.Fields.Tags)
+            </h3>
+        </div>
+    </section>
+</div>
