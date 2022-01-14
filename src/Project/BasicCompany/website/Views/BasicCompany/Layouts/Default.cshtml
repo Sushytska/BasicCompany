@@ -1,29 +1,16 @@
-﻿@inherits WebViewPage
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
 @{
-    Layout = null;
+    Layout = "outer.cshtml";
 }
 
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Basic Company</title>
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="~/css/basic-company.css">
-</head>
-
-<body>
+<div>
     @Html.Sitecore().Placeholder("header")
+</div>
+<div>
     @Html.Sitecore().Placeholder("main")
+</div>
+<div>
     @Html.Sitecore().Placeholder("footer")
-
-    @* Generally, disabling JavaScript interactivity in an MVC site when editing is a good idea. *@
-    @if (!Sitecore.Context.PageMode.IsExperienceEditor)
-    {
-        <script src="~/js/basic-company.js"></script>
-    }
-</body>
-</html>
+</div>

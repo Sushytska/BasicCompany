@@ -43,6 +43,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Sitecore">
+      <Version>9.3.0</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Sitecore.Kernel" Version="9.3.0" />
     <PackageReference Include="Sitecore.Mvc" Version="9.3.0" />
   </ItemGroup>
@@ -54,12 +59,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Site.css" />
     <Content Include="css\basic-company.css" />
     <Content Include="js\basic-company.js" />
-    <Content Include="Views\BasicCompany\Layouts\Default.cshtml" />
     <Content Include="App_Config\Include\Project\Project.BasicCompany.config" />
     <Content Include="App_Config\Include\Project\Project.BasicCompany.Serialization.config" />
-    <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <Content Include="Views\BasicCompany\Layouts\Outer.cshtml" />
+    <Content Include="Views\BasicCompany\Layouts\Default.cshtml" />
     <None Include="Views\web.config" />
     <None Include="web.config" />
     <None Include="web.Debug.config">

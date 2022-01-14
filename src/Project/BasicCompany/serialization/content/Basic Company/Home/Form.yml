@@ -1,0 +1,63 @@
+﻿---
+ID: "d115e17c-d15e-4238-bba7-128a47f97db6"
+Parent: "97479c6b-bb30-4a15-afd1-2c89f207e9d6"
+Template: "f648908a-d154-4f93-aba1-d3b1f93cc787"
+Path: /sitecore/content/Basic Company/Home/Form
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1"
+      s:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{E50A026C-FCF8-4039-AE7F-9683705E9C31}"
+          p:after="*[1=2]"
+          s:ds="{57FD5FC6-19BE-4C91-B703-2C99190483F5}"
+          s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
+          s:par=""
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{F0A5DB63-0684-4D4F-998F-85EAD9DF306E}"
+              p:before="*"
+              s:ds="{57FD5FC6-19BE-4C91-B703-2C99190483F5}"
+              s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
+              s:ph="main" />
+            <r
+              uid="{8D8C069C-3FB7-4DE4-BC0E-5601E9B518CB}"
+              p:after="r[@uid='{F0A5DB63-0684-4D4F-998F-85EAD9DF306E}']"
+              s:ds="{6E5CDAA4-FECD-48A7-8324-E8510308C9E1}"
+              s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
+              s:ph="main" />
+            <r
+              uid="{E50A026C-FCF8-4039-AE7F-9683705E9C31}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220111T125854Z
+    - ID: "32cff90d-4fdf-4402-a364-21199e88753d"
+      Hint: Navigation Title
+      Value: Form

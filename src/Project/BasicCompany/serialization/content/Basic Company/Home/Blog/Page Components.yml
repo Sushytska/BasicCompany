@@ -1,0 +1,14 @@
+﻿---
+ID: "2df97d46-d6cd-478e-a5dd-308d1fedc97d"
+Parent: "fc1d1c34-d1c9-47e9-9b22-9bf3c46986ef"
+Template: "7ba26fb3-7ab2-4e09-bb5a-e9d6cd048bba"
+Path: /sitecore/content/Basic Company/Home/Blog/Page Components
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211109T161159Z

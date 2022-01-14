@@ -1,0 +1,27 @@
+﻿---
+ID: "216f5a05-c01e-4356-9c76-7ea8e2b391a5"
+Parent: "4d4275ba-da72-48ed-bb9c-c8c3b53017e2"
+Template: "1ccf290b-d14a-47e5-8f2e-124c9f6d87db"
+Path: /sitecore/content/Basic Company/Home/News/Sample News 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211105T144741Z
+    - ID: "32cff90d-4fdf-4402-a364-21199e88753d"
+      Hint: Navigation Title
+      Value: Sample News 1
+    - ID: "43b7a18a-ff98-43fc-be68-69c66f34d01e"
+      Hint: News Header Image
+      Value: |
+        <image mediaid="{F6FE998B-F914-48A1-8621-78A24AAFA1B7}" />
+    - ID: "6b4e39f1-92d7-4c21-9a80-0c1789589f9d"
+      Hint: News Author
+      Value: Yakiv
+    - ID: "97e19fca-696e-414d-ba41-e486c01e7647"
+      Hint: News Title
+      Value: Sample news title

@@ -11,7 +11,8 @@ SharedFields:
   Value: |
     {B4649591-93B9-4151-8EBD-8AEA5BB2D5B1}
     {CF36F320-5A92-4E15-83FC-676820448A63}
-    {D3D6EE0B-74DF-4AEE-86E9-35BEEAF5EC5D}
+    {B73A9F21-C606-4E51-91F1-4F7DB5F01F82}
+    {F648908A-D154-4F93-ABA1-D3B1F93CC787}
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -54,8 +55,14 @@ Languages:
               s:id="{C0234B7A-B7F4-4018-B0D8-998D14EFEAC1}"
               s:ph="/main/promos-{0B6B5E57-EB1C-42A6-86F3-DA06DFD1F319}-0" />
             <r
-              uid="{BB562955-2CF5-4A57-B6C7-DDF2278EC0E0}"
+              uid="{EACBF3A4-5A4C-4506-BB41-CAB0D747BE2F}"
               p:after="r[@uid='{37626E09-3015-4350-B168-E3497BD52186}']"
+              s:ds="{4ADD5536-81FA-4C38-B5AA-7836423FD9F9}"
+              s:id="{C0234B7A-B7F4-4018-B0D8-998D14EFEAC1}"
+              s:ph="/main/promos-{0B6B5E57-EB1C-42A6-86F3-DA06DFD1F319}-0" />
+            <r
+              uid="{BB562955-2CF5-4A57-B6C7-DDF2278EC0E0}"
+              p:after="r[@uid='{EACBF3A4-5A4C-4506-BB41-CAB0D747BE2F}']"
               s:ds="{9C581356-66D4-4993-BB25-757B710A06E8}"
               s:id="{F8CAE35C-3DD6-42CD-A4DA-4223027A6A61}"
               s:ph="main" />
