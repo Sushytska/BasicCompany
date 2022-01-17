@@ -1,0 +1,40 @@
+﻿---
+ID: "2255dcdd-3d6d-46f6-b509-080fafc83fb2"
+Parent: "97479c6b-bb30-4a15-afd1-2c89f207e9d6"
+Template: "32fc17ea-6288-40ef-bde8-78175e47f0cd"
+Path: /sitecore/content/Basic Company/Home/Registration Form
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1"
+      s:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        s:l="{5FCBC7D5-6D41-4770-AF60-E38F1A3EAB98}">
+        <r
+          uid="{C66A8E0F-1671-464F-B21E-9E5DA29FC84A}"
+          p:after="r[@uid='{5B4893F1-86BA-4ABA-8CB3-1BD6B0D10CB0}']"
+          s:ds="{43553124-E0AD-4A25-8064-9D8B47B7F20F}"
+          s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
+          s:par=""
+          s:ph="main" />
+        <r
+          uid="{D40CD9A3-CC19-4772-AA17-191F399340C9}"
+          p:after="*[1=2]" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220114T143227Z
+    - ID: "32cff90d-4fdf-4402-a364-21199e88753d"
+      Hint: Navigation Title
+      Value: Register
